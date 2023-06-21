@@ -1,0 +1,45 @@
+[
+    {
+        "name": "chromeheadlessio/php-client",
+        "version": "0.2.0",
+        "version_normalized": "0.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/chromeheadlessio/php-client.git",
+            "reference": "e63c926834c8957be4cba28bed63515b2055e515"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/chromeheadlessio/php-client/zipball/e63c926834c8957be4cba28bed63515b2055e515",
+            "reference": "e63c926834c8957be4cba28bed63515b2055e515",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "time": "2019-02-01T10:22:31+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "chromeheadlessio\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "chromeheadlessio",
+                "homepage": "https://chromeheadless.io"
+            }
+        ],
+        "description": "An Open Source PHP client to use cloud export service chromeheadless.io",
+        "homepage": "https://chromeheadless.io",
+        "keywords": [
+            "pdf export service",
+            "php client"
+        ]
+    }
+]

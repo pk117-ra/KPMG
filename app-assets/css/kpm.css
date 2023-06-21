@@ -1,0 +1,105 @@
+.kp-ll
+{
+	color: #666666;
+	width: -webkit-calc(50% + 20px);
+	width: -moz-calc(50% + 20px);
+	width: calc(50% + 20px);
+	float: left;
+	padding-top: 0 !important;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	text-indent: 15px;
+	word-break: break-word;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0;
+}
+.kp-rl
+{
+	float: left;
+	width: -webkit-calc(50% - 20px);
+	width: -moz-calc(50% - 20px);
+	width: calc(50% - 20px);
+	margin-bottom: 5px;
+	padding-top: 0;
+	padding-bottom: 5px;
+	position: relative;
+	padding-right: 20px;
+	color: #0e0e0e;
+}
+.kp-fl
+{
+    float: left;
+    width: 100%;
+    position: relative;
+    padding-right: 20px;
+    color: #0e0e0e;
+}
+.kp-wrap
+{
+	clear: both;
+	border-bottom: 1px solid #EFF2F7;
+	line-height: 20px;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	position: relative;
+}
+.kp-body
+{
+	display: inline-block;
+    width: 100%;
+    /*height: 100%;*/
+    max-height: 100%;
+    overflow-y: inherit;
+}
+.kp-card
+{
+	box-shadow: 0 1px 4px 0 rgba(16, 3, 25, 0.83);
+    background-color: #ffffff;
+    border-radius: 2px;
+    position: relative;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    overflow: hidden;
+    min-height: 200px;
+    max-height: 250px;
+
+}}
+.kp-head
+{
+	border: none;
+    height: 50px;
+    width: 100%;
+    padding: 15px 20px;
+    position: relative;
+    overflow: hidden;
+}
+.kp-head::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    background-color: #feba0f;
+    width: 25px;
+    height: 30px;
+    border-radius: 100%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.kp-head::before
+{
+	background: #137a8a;
+}
+.kp-head h3 {
+    font-size: 14px;
+    /*font-family: "latobold";*/
+    margin: auto;
+    display: inline-block;
+    vertical-align: sub;
+}

@@ -1,0 +1,139 @@
+/*.mug-logo-back {
+	background-color: #fff;
+}*/
+
+/*
+BEGIN CREATE TICKET
+Hide radio button (the round disc)
+we will use just the label to create pushbutton effect
+*/
+input[name=radios] {
+display:none; 
+}
+
+/*
+Change the look'n'feel of labels (which are adjacent to radiobuttons).
+Add some margin, padding to label
+*/
+
+input[name=radios] + label {
+border: 10px solid #fff;
+display:inline-block;
+padding: 10px;
+background-color: #e7e7e7;
+}
+
+/*
+Change background color for label next to checked radio button
+to make it look like highlighted button
+*/
+
+input[name=radios]:checked + label { 
+background-image: none;
+background-color: #0a7cc2;
+color: #fff;
+}
+
+#checkBox1, #checkBox2, #checkBox3, #checkBox4, #checkBox5, #checkBox6, #checkBox7, #checkBox8, #checkBox9, #checkBox10, #checkBox11, #checkBox12, #checkBox13, #checkBox14, #checkBox15{
+display:none; 
+}
+#checkBox1:checked + label, #checkBox2:checked + label, #checkBox3:checked + label, #checkBox4:checked + label, #checkBox5:checked + label, #checkBox6:checked + label, #checkBox7:checked + label, #checkBox8:checked + label, #checkBox9:checked + label, #checkBox10:checked + label, #checkBox11:checked + label, #checkBox12:checked + label, #checkBox13:checked + label, #checkBox14:checked + label, #checkBox15:checked + label{
+background-color: #0a7cc2;	
+}
+#checkBox1 + label, #checkBox2 + label, #checkBox3 + label, #checkBox4 + label, #checkBox5 + label, #checkBox6 + label, #checkBox7 + label, #checkBox8 + label, #checkBox9 + label, #checkBox10 + label, #checkBox11 + label, #checkBox12 + label, #checkBox13 + label, #checkBox14 + label, #checkBox15 + label {
+border: 10px solid #fff;
+display:inline-block;
+padding: 10px;
+background-color: #e7e7e7;
+}
+/* END CREATE TICKET */
+.bgblue{
+background-color: #feca05;
+}
+.bglblue{
+background-color: #feca05;
+}
+.bgllblue{
+background-color: #9ddcf9;
+}
+.bhcontpage{
+min-height: 100%;
+}
+.bhbtn1{
+background-color: #0d7cc1;
+color: #fff;
+min-width: 90px;
+}
+.bhbtn2{
+background-color: #2957a4;
+color: #fff;
+min-width: 90px;
+}
+.bhbtn2:hover{
+background-color: #57b6ec;
+color: #000;
+min-width: 90px;
+}
+.bhbtn3{
+background-color: #57b6ec;
+color: #fff;
+min-width: 90px;
+}
+.bhbtn3:hover{
+background-color: #9ddcf9;
+color: #000;
+min-width: 90px;
+}
+.bhbtn4{
+background-color: #9ddcf9;
+color: #fff;
+min-width: 90px;
+}
+.bhbtn4:hover{
+background-color: #57b6ec;
+color: #000;
+min-width: 90px;
+}
+.bhbtnpad3{
+padding: 3px;
+}
+.bhbtnpad5{
+padding: 5px;
+}
+.bhtbl {
+    border-collapse: collapse;
+    width: 100%;
+}
+.bhtbl th {
+    text-align: left;
+    background-color: #92caeb;
+    color: #fff;                
+    text-align: left;
+    padding: 25px;
+}
+.bhtbl td, .bhtbl th {
+    border: 1px solid #fff; /*Border color*/
+    padding: 15px;
+}
+.bhtbl tr:nth-child(even){
+    background-color: #d5e2ea;
+}
+.bhtbl tr:nth-child(odd){
+    background-color: #cce9f9;
+} 
+
+.bhbtni1{
+background-color: #0d7cc1;
+color: #fff;
+padding: 10px;
+}
+.bhbtni2{
+background-color: #429bd6;
+color: #fff;
+padding: 10px;
+}
+.bhbtni3{
+background-color: #57b6ec;
+color: #fff;
+padding: 10px;
+}
